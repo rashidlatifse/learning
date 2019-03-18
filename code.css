@@ -1,0 +1,100 @@
+body{
+   background-color: #a9a9a9;
+   font-family: sans-serif;  
+}
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.icon{
+    float: right;
+}
+.icon .fa{
+    margin-right: 50px;
+
+}
+.icon .fa:hover{
+    cursor: pointer;
+}
+.header p{
+    font-size: 15px; 
+}
+.code{
+    padding: 5px;
+    font-weight: bold;
+}
+.button1{
+    border-radius: 50px;
+    background-color:#1eb323;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+    font-size: 28px;
+    color: white; 
+}
+.button2{
+    border-radius: 50px;
+    background-color:#1eb323;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+     margin-right: 4px;
+    font-size: 28px;
+    color: white; 
+}
+.button3{
+    border-radius: 50px;
+    background-color:#1eb323;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+     margin-right: 4px;
+    font-size: 28px;
+    color: white; 
+}
+.button .button4{
+    border-radius: 50px;
+    background-color:#bbbdbb;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px; 
+     margin: 4px;
+      font-size: 28px;
+    color: #bbbdbb; 
+     
+
+}
+.button1,.button2,.button3,.button4:hover{
+    cursor: pointer;
+}
+.verify button{
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color:#1eb323;
+    width: 140px;
+    margin: 50px;
+    padding: 12px;
+    color: white;
+    font-size: 15px; 
+}
+.verify  button:hover{
+    background-color: rgb(123, 199, 47);
+    cursor: pointer;
+}
+.resend{
+    border-radius: none;
+    border: none;
+    color: #2dce33;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer p{
+    color: #686b68;
+}
+.
