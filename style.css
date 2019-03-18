@@ -1,0 +1,86 @@
+
+body{
+	background-color: darkgray;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#countrylist{
+	color: grey;
+	border-radius: 40px;
+	padding: 10px;
+	margin: 5px;
+	width: 328px; 
+}
+
+#container{
+	text-align: center;
+	background-color: white;
+	width: 500px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;	
+}
+
+.user-input{
+	border: solid 1px;
+	color: grey;
+	border-radius: 40px;
+	padding: 10px;
+	margin: 5px;
+	width: 8cm;
+	outline: none;	
+}
+
+.button {
+
+	border: solid 1px;	
+	border-radius:80px;
+	background-color: #0ef516;	
+	padding:10px;
+	color: white;
+	width: 3cm;	
+	font-size: 16px; 
+}
+.button:hover{
+    background-color: #1ad820;
+    cursor: pointer;
+}
+.circleimage{
+	width: 45px;
+	height:45px;
+	border-radius: 25px;
+	top: 3px;
+		
+}
+
+.circlelogo{
+	width: 40px;
+	height:40px;
+	border-radius: 20px;
+}
+.textset{
+	color: rgb(121, 116, 121);
+}
+
+.logset{
+	color:rgb(121, 116, 121);
+}
+
+.close-button>div{
+	width: 30px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	left: 5px;
+	top:14px;
+	float: none; 
+
+}
+.close-button > div :  first-child {
+	-webkit-transform: rotate (45deg);
+}
+.close-button > div: second-child {
+	-webkit-transform: rotate (-45deg);
+}
+
+		

@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background-color:  darkgray;        
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;	
+}
+.icon{
+    width: 20px;
+    height: 18px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 65px;
+    margin-top: 26px;
+    color: #8a8787e0; 
+}
+.icon:hover{
+   background-color: #1ad820;
+    cursor: pointer; 
+}
+ul{
+    list-style-type: none;
+}
+.content ul li {
+    border: solid 1px;
+    background-color: rgb(234, 233, 233);
+    padding: 10px;
+    margin: 8px;
+    margin-right: 48px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.content ul li  :hover{
+cursor: pointer;
+}
+.content ul li .fa{
+    width:18px;
+    height: 20px;
+    border-radius:10px;
+   /* border: solid 1px black;*/
+    margin-left: 0px;
+    float: left;
+    padding-top: 14px ;
+    padding-left: 20px; 
+    color: #979393e0;   
+}
+.cotentn ul li .fa:hover{
+    background-color: #1ad820;
+    cursor: pointer;  
+} 
+.footer .button{
+    border-radius: 80px;
+    border: solid 1px;
+    width: 130px;
+    padding:10px;
+    background-color:   #1ad820;	
+    color: white; 
+    float: right; 
+    font-size: 18px; 
+    margin: 0px 40px;  
+}
+
+.button:hover{
+    background-color: #1ad820;
+    cursor: pointer;
+}
+
+.footer .skip-button
+{
+    border-radius: 60px;
+    border: solid .5px;
+    border-color: white;
+    width: 2cm;
+    padding: 8px;
+    color:#1ad820;
+    background-color: white;
+    float: left;
+    font-size: 15px;
+    margin: 0px 0px 0px 35px;
+}
